@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://playstackemsbackend-rnzocoro.b4a.run/api",
+  baseURL: "https://playstackemsbackend-mzucorob.b4a.run/api",
 });
 
 api.interceptors.request.use((config) => {
