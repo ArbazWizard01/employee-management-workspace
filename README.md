@@ -30,3 +30,21 @@ Navigate to the server directory, install the packages, configure your environme
 cd backend
 npm install
 npm run dev
+
+
+ Backend Server Setup
+
+```bash
+cd ems-frontend
+npm install
+npm run dev
+```
+
+## 🔗 API Endpoints
+
+| Method | Endpoint | Description | Access |
+|--------|----------|-------------|--------|
+| `POST` | `/api/auth/login` | Authenticate user credentials | Public |
+| `GET` | `/api/dashboard/stats` | Retrieve dashboard metrics and system statistics | Admin, HR |
+| `GET` | `/api/employees` | Fetch employees with filtering and pagination | Authenticated |
+| `GET` | `/api/employees/organization/tree` | Retrieve organizational hierarchy for tree visualization | Authenticated |
