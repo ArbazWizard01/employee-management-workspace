@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://playstackemsbackend-u46bbc17.b4a.run/api",
+  baseURL: "https://employee-management-workspace.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
